@@ -3,15 +3,15 @@
 	float: right;
 }
 
-a.wpd {
+div.wpd {
 	position: absolute;
 }
 
-a.wpd::after {
+div.wpd::after {
 	content: " \25BC";
 }
 
-a.wpd:hover .pulldown {
+div.wpd:hover .pulldown {
 	display: block;
 }
 
