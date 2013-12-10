@@ -1,0 +1,24 @@
+.navlink-right {
+	margin-right: 1em;
+	float: right;
+}
+
+.wpd {
+	position: absolute;
+}
+
+a.wpd:hover .pulldown {
+	display: block;
+}
+
+.pulldown {
+	display: none;
+	background: black;
+	width: 200px;
+}
+
+.pulldown>ul {
+	margin-top: 4px;
+	padding: 0 17px 17px 40px;
+	line-height: 27px;
+}
