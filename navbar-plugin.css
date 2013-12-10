@@ -26,3 +26,7 @@ div.wpd:hover .pulldown {
 	padding: 0 17px 17px 40px;
 	line-height: 27px;
 }
+
+.indent {
+	margin-left: 25px;
+}
