@@ -6,9 +6,14 @@
 div.wpd {
 	position: absolute;
 	display: inline;
+	padding-top: 0;
 }
 
 div.wpd::after {
+	content: " \25BC";
+}
+
+div.wpd:hover::after {
 	content: " \25BC";
 }
 
