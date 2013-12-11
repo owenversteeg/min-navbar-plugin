@@ -7,6 +7,7 @@ div.wpd {
 	position: absolute;
 	display: inline;
 	padding-top: 0;
+	margin-left: -13px;
 }
 
 div.wpd::after {
