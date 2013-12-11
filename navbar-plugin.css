@@ -48,6 +48,11 @@ div.wpd:hover .pulldown {
 		float: inherit;
 	}
 	
+	li {
+		display: inline-block;
+		margin-left: -1.2em;
+	}
+	
 	div.wpd {
 		display: block;
 		text-align: center;
