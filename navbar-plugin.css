@@ -13,6 +13,11 @@ div.wpd::after {
 	content: " \25BC";
 }
 
+.pulldown hr {
+	margin: 1em auto;
+	margin-left: -23px;
+}
+
 div.wpd:hover::after {
 	content: "\00a0\00a0\00a0\00a0";
 }
