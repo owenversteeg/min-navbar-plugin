@@ -68,6 +68,9 @@ div.wpd:hover .pulldown {
 		text-align: center;
 		width: 100%;
 		display: inherit;
+	}
+	
+	.pulldown > ul {
 		padding: 0;
 	}
 	
