@@ -56,12 +56,20 @@ div.wpd:hover .pulldown {
 		display: block;
 		text-align: center;
 		width: 100%;
-		margin-left: -1.2em;
 		padding-left: 0;
+	}
+	
+	div.wpd .pulldown li > a {
+		margin-left: -1.2em;
 	}
 	
 	div.wpd > .pulldown {
 		text-align: center;
 		width: 100%;
+		display: inherit;
+	}
+	
+	div.wpd::after {
+		content: " ";
 	}
 }
