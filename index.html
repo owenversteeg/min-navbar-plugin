@@ -8,12 +8,13 @@
 		<link href="navbar-plugin.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
+		<br>
 		<h1>min - navbar plugin</h1>
 		<h3>adds dropdowns and right-positioned links to the default navbar &middot; <a href="https://github.com/owenversteeg/min-navbar-plugin"><u>on github</u></a></h3>
 
 		<hr class="mediumwidth">
 		
-		<div class="mediumwidth">
+		<div class="mediumwidth" id="navbarholder">
 			<div class="navbar">
 				<a class="pagename" href="#">Min Framework</a>
 				<a class="navbar-link" href="#">One</a>
@@ -35,6 +36,15 @@
 					<a class="navbar-link" href="#">Five</a>
 				</div>
 			</div>
+		</div>
+		
+		<div class="mediumwidth">
+			<code id="textholder">
+				
+			</code>
+			<script type="text/javascript">
+				document.getElementById('textholder').innerText = document.getElementById('navbarholder').innerHTML;
+			</script>
 		</div>
 
 		<hr class="mediumwidth">
