@@ -18,6 +18,10 @@ div.wpd::after {
 	margin-left: -23px;
 }
 
+.pulldown h5 {
+	margin: 0 auto;
+}
+
 div.wpd:hover::after {
 	content: "\00a0\00a0\00a0\00a0";
 }
