@@ -51,6 +51,10 @@ div.wpd:hover .pulldown {
 		display: block;
 	}
 	
+	.navbar {
+		height: auto;
+	}
+	
 	div.wpd {
 		display: block;
 		text-align: center;
@@ -72,6 +76,7 @@ div.wpd:hover .pulldown {
 	
 	.pulldown > ul {
 		padding: 0;
+		margin-bottom: 0;
 	}
 	
 	div.wpd::after {
