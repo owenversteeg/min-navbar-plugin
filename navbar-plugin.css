@@ -29,6 +29,7 @@ div.wpd:hover .pulldown {
 	display: none;
 	background: black;
 	width: 205px;
+	position: absolute;
 }
 
 .pulldown>ul {
