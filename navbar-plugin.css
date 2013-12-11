@@ -41,3 +41,15 @@ div.wpd:hover .pulldown {
 .indent {
 	margin-left: 25px;
 }
+
+@media (max-width:500px) {
+	.navbar-right {
+		margin-right: 0
+		float: inherit;
+	}
+	
+	div.wpd {
+		text-align: center;
+		width: 100%;
+	}
+}
