@@ -49,8 +49,7 @@ div.wpd:hover .pulldown {
 	}
 	
 	li {
-		display: inline-block;
-		margin-left: -1.2em;
+		display: block;
 	}
 	
 	div.wpd {
