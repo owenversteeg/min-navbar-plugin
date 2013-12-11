@@ -7,7 +7,6 @@ div.wpd {
 	position: absolute;
 	display: inline;
 	padding-top: 0;
-	margin-left: -13px;
 }
 
 div.wpd::after {
@@ -61,7 +60,11 @@ div.wpd:hover .pulldown {
 	}
 	
 	div.wpd .pulldown li > a {
-		margin-left: -1.2em;
+		margin-left: -1.3em;
+	}
+	
+	.indent {
+		margin-left: 0;
 	}
 	
 	div.wpd > .pulldown {
