@@ -48,7 +48,7 @@ div.wpd:hover .pulldown {
 		float: inherit;
 	}
 	
-	div.wpd {
+	div.wpd > .pulldown {
 		text-align: center;
 		width: 100%;
 	}
