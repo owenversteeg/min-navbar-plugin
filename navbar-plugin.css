@@ -14,7 +14,7 @@ div.wpd::after {
 }
 
 div.wpd:hover::after {
-	content: "";
+	content: "\00a0\00a0\00a0\00a0";
 }
 
 .navbar-link.wpd li > a {
