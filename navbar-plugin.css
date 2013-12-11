@@ -14,7 +14,11 @@ div.wpd::after {
 }
 
 div.wpd:hover::after {
-	content: " \25BC";
+	content: "";
+}
+
+.navbar-link.wpd li > a {
+	color: white;
 }
 
 div.wpd:hover .pulldown {
