@@ -4,7 +4,7 @@
 }
 
 div.wpd {
-	position: absolute;
+	position: relative;
 	display: inline;
 	padding-top: 0;
 }
