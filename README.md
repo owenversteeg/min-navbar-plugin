@@ -7,6 +7,8 @@ A plugin for the Min css framework that extends the default navbar to include dr
  - 400 bytes minified and uncompressed
  - 264 bytes minified and gzipped
 
-Requires Min's General and Navbar subsections. To include this plugin, place this immediately after your main Min css file:
+Requires Min's General and Navbar subsections. To include the latest version of this plugin, place this immediately after your main Min css file:
 
 `<link href="http://owenversteeg.com/min-navbar-plugin/navbar-plugin.min.css" rel="stylesheet" type="text/css" />`
+
+WARNING: This will automatically update as soon as the repository updates. If you are using the Min navbar plugin in production code, you should **not** use the above <link> - instead, include a specific version of the CSS in your page.
