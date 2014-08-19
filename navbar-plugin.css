@@ -61,7 +61,8 @@ div.wpd:hover .pulldown {
 @media (max-width:500px) {
 	.navlink-right {
 		margin-right: 0;
-		float: inherit;
+		float: none;
+		display: inline-block;
 	}
 	
 	li {
