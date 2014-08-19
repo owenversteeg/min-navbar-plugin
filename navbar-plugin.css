@@ -38,8 +38,10 @@ div.wpd::after {
 }
 
 .pulldown hr {
-	margin: 1em auto;
-	margin-left: -23px;
+	margin: 0.5em -10px 0.5em -22px;
+	height: 1px;
+	background: #aaa;
+	border: 0;
 }
 
 .pulldown h5 {
@@ -63,12 +65,15 @@ div.wpd:hover .pulldown {
 	background: black;
 	width: 205px;
 	position: absolute;
+	left: -13px;
 }
 
 .pulldown>ul {
 	margin-top: 4px;
 	padding: 0 17px 17px 40px;
 	line-height: 27px;
+	list-style: initial;
+	list-style-type: none;
 }
 
 .indent {
