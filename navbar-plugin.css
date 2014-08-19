@@ -14,6 +14,8 @@ div.wpd {
 	display: inline;
 	padding-top: 0;
 	font-size: 14px;
+	top: -1px;
+	padding-right: 1em;
 }
 
 div.wpd::after {
