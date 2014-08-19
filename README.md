@@ -3,12 +3,8 @@ min-navbar-plugin
 
 A plugin for the Min css framework that extends the default navbar to include dropdowns and right-positioned links.
 
- - 539 bytes unminified and uncompressed
- - 400 bytes minified and uncompressed
- - 264 bytes minified and gzipped
+Requires Min's General and Navbar subsections. To include the latest version of this plugin, download the `navbar-plugin.css` file and load it after Min.
 
-Requires Min's General and Navbar subsections. To include the latest version of this plugin, place this immediately after your main Min css file:
+`<link href="http://owenversteeg.com/min-navbar-plugin/navbar-plugin.css" rel="stylesheet" type="text/css" />`
 
-`<link href="http://owenversteeg.com/min-navbar-plugin/navbar-plugin.min.css" rel="stylesheet" type="text/css" />`
-
-WARNING: This will automatically update as soon as the repository updates. If you are using the Min navbar plugin in production code, you should **not** use the above <link> - instead, include a specific version of the CSS in your page.
+WARNING: This will automatically update as soon as the repository updates. If you are using the Min navbar plugin in production code, you should **not** use the above <link> - instead, download the plugin and reference your downloaded copy.
