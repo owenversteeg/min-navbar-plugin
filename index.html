@@ -13,59 +13,59 @@
 		</style>
 	</head>
 	<body>
-		<br>
-		<h1>min - navbar plugin</h1>
-		<h3>adds dropdowns and right-positioned links to the default navbar &middot; <a href="https://github.com/owenversteeg/min-navbar-plugin"><u>on github</u></a></h3>
-
-		<hr class="mediumwidth">
-		
-		<div class="mediumwidth" id="navbarholder">
-			<nav class="nav">
-				<div class="container">
-					<a class="pagename current" href="#">Min Framework</a>
-					<a href="#">One</a>
-					<a href="#">Two</a>
-					<div class="wpd">Three
-						<div class="pulldown">
-							<ul>
-								<li><a href="#">About Us</a></li>
-								<li class="indent"><a href="#">Company History</a></li>
-								<li class="indent"><a href="#">Corporate Policy</a></li>
-								<li class="indent"><a href="#">Our Leadership</a></li>
-								<li><a href="#">Contact Us</a></li>
-								<li><a href="#">Sign In</a></li>
-							</ul>
+		<div class="container">
+			<h2>min navbar plugin</h2>
+			<h3>adds dropdowns and right-positioned links to the default navbar &middot; <a href="https://github.com/owenversteeg/min-navbar-plugin"><u>on github</u></a></h3>
+	
+			<hr class="mediumwidth">
+			
+			<div class="mediumwidth" id="navbarholder">
+				<nav class="nav">
+					<div class="container">
+						<a class="pagename current" href="#">Min Framework</a>
+						<a href="#">One</a>
+						<a href="#">Two</a>
+						<div class="wpd">Three
+							<div class="pulldown">
+								<ul>
+									<li><a href="#">About Us</a></li>
+									<li class="indent"><a href="#">Company History</a></li>
+									<li class="indent"><a href="#">Corporate Policy</a></li>
+									<li class="indent"><a href="#">Our Leadership</a></li>
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">Sign In</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="navlink-right">
+							<a href="#">Four</a>
+							<a href="#">Five</a>
 						</div>
 					</div>
-					<div class="navlink-right">
-						<a href="#">Four</a>
-						<a href="#">Five</a>
-					</div>
-				</div>
-			</nav>
-		</div>
-		
-		<hr class="mediumwidth">
-		
-		<div class="mediumwidth" id="textholderholder">
-			<code id="textholder">
-				
-			</code>
-			<script type="text/javascript">
-				document.getElementById('textholder').innerText = document.getElementById('navbarholder').innerHTML;
-			</script>
-		</div>
-
-		<hr class="mediumwidth">
-
-		<div class="mediumwidth">
+				</nav>
+			</div>
 			
+			<hr class="mediumwidth">
+			
+			<div class="mediumwidth" id="textholderholder">
+				<code id="textholder">
+					
+				</code>
+				<script type="text/javascript">
+					document.getElementById('textholder').innerText = document.getElementById('navbarholder').innerHTML;
+				</script>
+			</div>
+	
+			<hr class="mediumwidth">
+	
+			<div class="mediumwidth">
+				
+			</div>
+	
+			<h3>To use, simply include <a href="navbar-plugin.css">this CSS file</a> in your project.</h3>
+	
+			<br>
 		</div>
-
-		<a href="download.html"><button class="btn smooth btn-a" style="margin: 0 0 1em 0;">Download</button></a>
-
-		<br>
-
 		<!-- start Mixpanel -->
 		<script type="text/javascript">
 			(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
