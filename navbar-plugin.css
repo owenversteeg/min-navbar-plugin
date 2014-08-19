@@ -9,7 +9,9 @@
 	display: inline-block; 
 }
 .nav form {
-	position: relative; top: -5px
+	position: relative; 
+	top: -1px;
+	margin-top: -4px;
 }
 .nav .btn {
 	padding: 10px 15px 8px;
