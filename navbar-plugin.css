@@ -1,12 +1,15 @@
 .navlink-right {
 	margin-right: 1em;
 	float: right;
+	position: relative;
+	top: 5px;
 }
 
 div.wpd {
 	position: relative;
 	display: inline;
 	padding-top: 0;
+	font-size: 14px;
 }
 
 div.wpd::after {
