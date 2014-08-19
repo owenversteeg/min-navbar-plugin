@@ -5,6 +5,10 @@
 	top: 5px;
 }
 
+.nav div:not(.container):before {
+	content: none;
+}
+
 div.wpd {
 	position: relative;
 	display: inline;
@@ -70,7 +74,6 @@ div.wpd:hover .pulldown {
 	
 	div.wpd {
 		display: block;
-		text-align: center;
 		width: 100%;
 		padding: 0;
 		margin-left: 0;
@@ -82,14 +85,15 @@ div.wpd:hover .pulldown {
 	}
 	
 	div.wpd > .pulldown {
-		text-align: center;
 		width: 100%;
-		display: inherit;
+		position: relative;
 	}
 	
 	.pulldown > ul {
 		padding: 0;
+		line-height: inherit;
 		margin-bottom: 0;
+		margin-left: -20px;
 	}
 	
 	div.wpd::after {
