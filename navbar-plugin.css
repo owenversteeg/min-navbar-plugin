@@ -5,6 +5,16 @@
 	top: 5px;
 }
 
+.nav form *, form {
+	display: inline-block; 
+}
+.nav form {
+	position: relative; top: -5px
+}
+.nav .btn {
+	padding: 10px 15px 8px;
+}
+
 .nav div:not(.container):before {
 	content: none;
 }
