@@ -8,11 +8,14 @@
 .nav form *, form {
 	display: inline-block; 
 }
+
 .nav form {
 	position: relative; 
 	top: -1px;
+	height: 31px;
 	margin-top: -4px;
 }
+
 .nav .btn {
 	padding: 10px 15px 8px;
 }
