@@ -78,6 +78,7 @@ div.wpd:hover .pulldown {
 		padding: 0;
 		margin-left: 0;
 		position: relative;
+		color: #aaa;
 	}
 	
 	.indent {
@@ -87,13 +88,14 @@ div.wpd:hover .pulldown {
 	div.wpd > .pulldown {
 		width: 100%;
 		position: relative;
+		display: block;
 	}
 	
 	.pulldown > ul {
 		padding: 0;
 		line-height: inherit;
 		margin-bottom: 0;
-		margin-left: -20px;
+		margin-left: 20px;
 	}
 	
 	div.wpd::after {
