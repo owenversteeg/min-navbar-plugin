@@ -5,8 +5,12 @@
 	top: 5px;
 }
 
-.nav form *, form {
-	display: inline-block; 
+.nav form *, .nav form {
+	display: inline-block;
+}
+
+.nav form input {
+	color: white;
 }
 
 .nav form {
