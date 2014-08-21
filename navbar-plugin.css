@@ -26,7 +26,7 @@
 
 div.wpd {
 	position: relative;
-	display: inline;
+	display: inline-block;
 	padding-top: 0;
 	font-size: 14px;
 	top: -1px;
