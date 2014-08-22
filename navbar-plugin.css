@@ -99,14 +99,13 @@ div.wpd:hover .pulldown {
 	.navlink-right .pulldown {
 		text-align: left;
 		right: auto;
-		width: 75%;
 	}
 	
 	.navlink-right {
 		margin-right: 0;
 		float: none;
 		display: inline-block;
-		width: 100%;
+		width: 75%;
 	}
 	
 	.navlink-right .indent {
