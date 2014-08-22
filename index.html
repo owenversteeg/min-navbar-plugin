@@ -22,6 +22,11 @@
 					width: 1235px;
 				}
 			}
+			
+			.mediumwidth {
+				overflow-x: auto;
+				white-space: nowrap;
+			}
 		</style>
 	</head>
 	<body>
@@ -65,7 +70,7 @@
 					
 				</code>
 				<script type="text/javascript">
-					document.getElementById('textholder').innerText = document.getElementById('navbarholder').innerHTML;
+					textholder.innerHTML = navbarholder.innerHTML.replace(/\t\t\t\t</g,'<').replace(/</g,'&lt;').replace(/\n/g,'<br>').replace(/\t/g,'&nbsp;&nbsp;&nbsp;&nbsp;');
 				</script>
 			</div>
 	
