@@ -96,6 +96,12 @@ div.wpd:hover .pulldown {
 }
 
 @media (max-width:500px) {
+	.navlink-right .pulldown {
+		text-align: left;
+		right: auto;
+		width: 75%;
+	}
+	
 	.navlink-right {
 		margin-right: 0;
 		float: none;
