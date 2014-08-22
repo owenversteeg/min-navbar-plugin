@@ -80,6 +80,10 @@ div.wpd:hover .pulldown {
 	margin: 4px 0 0 0;
 }
 
+.navlink-right .indent {
+	margin-right: 25px;
+}
+
 .indent {
 	margin-left: 25px;
 }
@@ -89,6 +93,11 @@ div.wpd:hover .pulldown {
 		margin-right: 0;
 		float: none;
 		display: inline-block;
+		width: 100%;
+	}
+	
+	.navlink-right .indent {
+		margin-left: 25px;
 	}
 	
 	li {
@@ -110,10 +119,6 @@ div.wpd:hover .pulldown {
 	
 	div.wpd:hover::after {
 		content: none;
-	}
-	
-	.indent {
-		margin-left: 0;
 	}
 	
 	div.wpd > .pulldown {
