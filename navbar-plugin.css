@@ -38,7 +38,7 @@ div.wpd {
 }
 
 div.wpd::after {
-	content: " \25BC";
+	content: ' \25BC';
 }
 
 .pulldown hr {
@@ -130,6 +130,6 @@ div.wpd:hover .pulldown {
 	}
 	
 	div.wpd::after {
-		content: " ";
+		content: '';
 	}
 }
