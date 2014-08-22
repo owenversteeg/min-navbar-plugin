@@ -5,6 +5,13 @@
 	top: 5px;
 }
 
+.navlink-right .pulldown {
+	float: right;
+	text-align: right;
+	right: 13px;
+	left: initial;
+}
+
 .nav form *, .nav form {
 	display: inline-block;
 }
