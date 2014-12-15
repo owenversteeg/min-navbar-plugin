@@ -3,7 +3,7 @@ min-navbar-plugin
 
 Version 2.0. Version numbers correspond to Min releases.
 
-A plugin for the Min css framework that extends the default navbar to include dropdowns and right-positioned links.
+A plugin for the Min CSS framework that extends the default navbar to include dropdowns and right-positioned links.
 
 Requires Min's General and Navbar subsections. To include the latest version of this plugin, download the `navbar-plugin.css` file and load it after Min.
 
